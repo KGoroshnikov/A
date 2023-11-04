@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outlines
-  m_Shader: {fileID: -6465566751694194690, guid: 15f1ed23abcf0dd4885b51442d9f2d46,
+  m_Name: shadows
+  m_Shader: {fileID: -6465566751694194690, guid: 19e7082fe11f8d74cb4f85d851a51594,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,7 +24,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_e57c19ffbc3443b0931af922fcaea44b_Texture_1_Texture2D:
+    - _SampleTexture2D_d280bdb2288d4c8e9013369996d4060b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c6fcda0220a744245b07566547feb1b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f5a83ea6921f48fd9d6fbc659ce31eb6_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: c6fcda0220a744245b07566547feb1b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -42,10 +46,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorThresold: 0.1
-    - _NormalThresold: 0.3
-    - _Overlay: 1
-    - _Thicc: 1
-    m_Colors:
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Step: 0.5
+    m_Colors: []
   m_BuildTextureStacks: []
