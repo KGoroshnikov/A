@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_6c3b50b8cabf4d148397819d8e3e30ad_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_7f5b781252044e3a8480f0ddf1a284b0_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: c6fcda0220a744245b07566547feb1b5, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,9 +59,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+    - _DrawOrder: 0
+    - _Light: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 0.87
+    - _Scale: 0.92
     m_Colors:
-    - _Color: {r: 1, g: 0.24056602, b: 0.24056602, a: 1}
+    - _Color: {r: 1, g: 0.5330188, b: 0.5330188, a: 1}
   m_BuildTextureStacks: []
